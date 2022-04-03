@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./style/style.css" />
+        <title>erik s. | morse code translator</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Morse Code Translator</h1>
+            </header>
+            <section class="input">
+                <textarea
+                    placeholder="Enter text or morse code here"
+                    class="input__textarea"
+                ></textarea>
+                </select>
+                <button class="input__button">Convert</button>
+            </section>
+            <section class="output"></section>
+            <section class="input__language">
+                <div class="languages" id="languageOne">English</div>
+                <img id="swap" src="./assets/swap.png" alt="swap">
+                <div class="languages" id="languageTwo">Morse</div>
+            </section>
+
+        </div>
+        <script type="module" src="./js/scripts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+@use "./modules/container.scss";
+@use "./modules/input.scss";
+@use "./modules/languages.scss";
+@use "./modules/output.scss";
+@use "./partials/palette";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: palette.$bg;
+}

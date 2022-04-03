@@ -1,0 +1,23 @@
+@use "../partials/palette";
+
+#languageOne,
+#languageTwo {
+    user-select: none;
+    margin-top: 15px;
+    padding: 10px 30px;
+    width: 110px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: palette.$inner-bg;
+    color: palette.$languages;
+}
+
+#swap {
+    margin-top: 15px;
+    height: 30px;
+    width: 30px;
+}
+
+img:hover {
+    cursor: pointer;
+}
