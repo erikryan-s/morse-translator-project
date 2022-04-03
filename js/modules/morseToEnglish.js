@@ -5,10 +5,11 @@ export const morseToEnglish = (str, engObj) => {
     }
     return (
         str
+            // get word 3 spaces apart
             .split("  ")
             .map((morseElem) =>
                 morseElem
-                    // character code 1 space apart
+                    // get word 1 space apart
                     .split(" ")
                     .map((char) => engObj[char])
                     .join(""),

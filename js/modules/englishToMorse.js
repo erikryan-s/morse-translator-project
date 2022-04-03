@@ -1,19 +1,16 @@
-export const englishToMorse = (str, morseObj) => {
-    if (!str || !morseObj) {
+import { morseCode } from "./morseCode.js";
+
+const engCharToMorse = (char) => {
+    if (!morseCode[char]) {
+        return char;
+    } else return morseCode[char];
+};
+
+export const englishToMorse = (str) => {
+    if (!str) {
         // return alert
-        throw new Error("Required");
+        throw new Error("INVALID CHARACTER");
+    } else {
+        return str.toLowerCase().split("").map(engCharToMorse).join(" ");
     }
-    return (
-        str
-            // morse is lowercase only
-            .toLowerCase()
-            .split("")
-            .map((engElem) => {
-                if (!morseObj[engElem]) {
-                    return engElem;
-                } else return morseObj[engElem];
-            })
-            // adding spaces between words
-            .join(" ")
-    );
 };

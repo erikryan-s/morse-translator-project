@@ -31,7 +31,7 @@ convertBtn.addEventListener("click", () => {
     let textArea = document.querySelector(".input__textarea").value;
     // if text area is left empty, show error
     if (textArea === "") {
-        alert("empty input");
+        alert("Field cannot be empty");
     } else {
         // if language selected is english
         if (langOne.innerText === "English") {
