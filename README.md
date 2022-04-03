@@ -7,7 +7,7 @@ A simple device that can translate between English characters and Morse code. Se
 ## Screenshot
 
 <p align="center">
-    <img src="https://i.gyazo.com/b6264bdbe8c1c4034e7bb9566ea9bed0.png" width="300" height="400">
+    <img src="https://i.gyazo.com/c5e0102da8aa00db01cb797aeec10d85.png" width="300" height="400">
 </p>
 
 ## Goal
