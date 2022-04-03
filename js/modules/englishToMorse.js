@@ -11,6 +11,16 @@ export const englishToMorse = (str) => {
         // return alert
         throw new Error("INVALID CHARACTER");
     } else {
-        return str.toLowerCase().split("").map(engCharToMorse).join(" ");
+        return (
+            str
+                // morse is lowercase only
+                .toLowerCase()
+                // split with empty space
+                .split("")
+                // map through characters, replace each english character with its morse counterpart
+                .map(engCharToMorse)
+                // adding spaces between words
+                .join(" ")
+        );
     }
 };
