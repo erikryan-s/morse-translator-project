@@ -38,7 +38,7 @@ A simple device that can translate between English characters and Morse code. Se
 ### Google Translate Mobile
 
 <p align="center">
-    <img src="https://i.gyazo.com/3e88d338f9b9ab154584a5cf216b4e85.png" width="300" height="600">
+    <img src="https://i.gyazo.com/3e88d338f9b9ab154584a5cf216b4e85.png" width="300" height="550">
 </p>
 
 ## Future updates and current limitations
