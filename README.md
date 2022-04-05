@@ -42,3 +42,5 @@ A simple device that can translate between English characters and Morse code. Se
 </p>
 
 ## Future updates and current limitations
+
+-   Complete unit testing
