@@ -24,6 +24,13 @@ A simple device that can translate between English characters and Morse code. Se
 
 ## Lifecycle & Implementation details
 
+### Tech Used
+
+-   HTML
+-   CSS
+-   Sass
+-   JavaScript
+
 ### Breakdown of logic
 
 -   Rough design of translator
