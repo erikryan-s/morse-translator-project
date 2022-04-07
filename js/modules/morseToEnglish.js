@@ -1,7 +1,7 @@
 export const morseToEnglish = (str, engObj) => {
     if (!str || !engObj) {
         // return alert
-        throw new Error("Required");
+        throw new Error("Field cannot be empty");
     }
     return (
         str

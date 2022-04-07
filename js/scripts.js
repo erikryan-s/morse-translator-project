@@ -1,4 +1,4 @@
-import { morseCode } from "./modules/morseCode.js";
+import { morseCode } from "./modules/dictionary.js";
 import { englishToMorse } from "./modules/englishToMorse.js";
 import { morseToEnglish } from "./modules/morseToEnglish.js";
 import { changeLang } from "./modules/changeLang.js";
