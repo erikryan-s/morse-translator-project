@@ -15,24 +15,32 @@
     </head>
     <body>
         <div class="container">
+            <!-- header -->
             <header>
                 <h1><span>Morsecode</span> Translate</h1>
             </header>
+
+            <!-- input -->
             <section class="input">
+                <!-- input morse -->
                 <textarea
                     placeholder="Enter text or morse code here"
                     class="input__textarea"
                 ></textarea>
-                </select>
+
+                <!-- convert morse button -->
                 <button class="input__button">Convert</button>
             </section>
+
+            <!-- translation output -->
             <section class="output"></section>
+
+            <!-- choose language -->
             <section class="input__language">
                 <div class="languages" id="languageOne">English</div>
-                <img id="swap" src="./assets/swap.png" alt="swap">
+                <img id="swap" src="./assets/swap.png" alt="swap" />
                 <div class="languages" id="languageTwo">Morse</div>
             </section>
-
         </div>
         <script type="module" src="./js/scripts.js"></script>
     </body>
