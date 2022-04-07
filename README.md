@@ -9,6 +9,9 @@ A simple device that can translate between English characters and Morse code. Se
 <p align="center">
     <img src="https://i.gyazo.com/f69b63ac87e933d19e35fce414a2f2e1.png" width="300" height="400">
 </p>
+<p align="center">
+    <img src="https://i.gyazo.com/bdf6c4a4c1426433c3fee97c89dae174.png" width="300">
+</p>
 
 ## Goal
 
