@@ -2,7 +2,7 @@
 
 A simple device that can translate between English characters and Morse code. Second project completed as a part of the \_nology program and was implemented with knowledge gained during this time.
 
-🔗 [Live Demo](https://erikryan-s.github.io/morse-translator-project/)
+🔗 [Live Demo](https://erikryan-s.github.io/morsecode-translate/)
 
 ## Screenshot
 
@@ -21,6 +21,10 @@ A simple device that can translate between English characters and Morse code. Se
 1. Create a user interface that allows the user to either input some English text or some Morse code
 2. Create JS functions that would allow the user to translate their English text into Morse code or Morse code into English text
 3. Make sure to handle spaces properly (ie. there is 1 space between English words, but one space between Morse code characters)
+4. Unit testing
+    - Add tests to your translation functions
+    - Your functions should be pure
+    - Write 3-4 test per function
 
 ## Lifecycle & Implementation details
 
@@ -30,6 +34,7 @@ A simple device that can translate between English characters and Morse code. Se
 -   CSS
 -   Sass
 -   JavaScript
+-   JEST unit testing
 
 ### Breakdown of logic
 
@@ -49,5 +54,3 @@ A simple device that can translate between English characters and Morse code. Se
 </p>
 
 ## Future updates and current limitations
-
--   Complete unit testing
