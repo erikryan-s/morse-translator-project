@@ -4,7 +4,15 @@ A simple device that can translate between English characters and Morse code. Se
 
 🔗 [Live Demo](https://erikryan-s.github.io/morsecode-translate/)
 
-## Screenshot
+## Table of Contents
+
+-   [Screenshots](#screenshots)
+-   [Project Requirements](#project-requirements)
+-   [Lifecycle and Implementation details](#lifecycle-and-implementation-details)
+-   [Design inspiration](#design-inspiration)
+-   [Future updates and current limitations](#future-updates-and-current-limitations)
+
+## Screenshots
 
 <p align="center">
     <img src="https://i.gyazo.com/f69b63ac87e933d19e35fce414a2f2e1.png" width="300" height="400">
@@ -29,7 +37,7 @@ A simple device that can translate between English characters and Morse code. Se
     - Your functions should be pure
     - Write 3-4 test per function
 
-## Lifecycle & Implementation details
+## Lifecycle and Implementation details
 
 ### Tech Used
 
